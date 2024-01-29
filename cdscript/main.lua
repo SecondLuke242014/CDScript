@@ -1,9 +1,10 @@
 --[[
 COPYRIGHT CDS 2024
 The CDScript programming language
+file format: *.cdsc
 ]]
 
-local cds = require('cds')
+local cdsc = require('cdsc')
 
 function compile(code)
   for i,v in pairs(string.split(code,' ')) do
@@ -17,4 +18,4 @@ function compile(code)
   end
 end
 
-compile(cds)
+compile(cdsc)
