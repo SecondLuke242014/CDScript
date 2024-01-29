@@ -1,1 +1,1 @@
-
+output "foo bar faz"
